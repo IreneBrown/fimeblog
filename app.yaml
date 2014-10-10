@@ -1,0 +1,14 @@
+application: summer-prism-729
+version: 1
+runtime: php
+api_version: 1
+handlers:
+    - url: /
+      script: index.php
+    - url: /css
+      static_dir: css
+    - url: /js
+      static_dir: js
+    - url: /images
+      static_dir: images
+
